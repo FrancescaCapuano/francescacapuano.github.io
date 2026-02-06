@@ -10,6 +10,7 @@ csl: apa.csl
 
 See @brysbaert2019many for practical guidelines on statistical power and sample size in psycholinguistic research.
 
+https://bodowinter.com/tutorial/bw_LME_tutorial1.pdf
 ```{r, message=FALSE}
 library(simr)
 
