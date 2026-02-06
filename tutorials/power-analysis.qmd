@@ -8,6 +8,10 @@ csl: apa.csl
 
 # Power Analysis
 
+See @brysbaert2019many for practical guidelines on statistical power and sample size in psycholinguistic research.
+
+# Example of a power analysis with simulations for acceptability judgments:
+# https://rpubs.com/masashiharada/contextualeffectscase-powercalculation
 ```{r, message=FALSE}
 library(simr)
 
