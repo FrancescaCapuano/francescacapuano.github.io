@@ -6,8 +6,10 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
+<meta name="author" content="Dr.&nbsp;Fritz Günther">
+<meta name="author" content="Dr.&nbsp;Francesca Capuano">
 
-<title>About – Francesca Capuano — R Tutorials</title>
+<title>LLMs vs.&nbsp;Human Language Processing – Francesca Capuano</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -23,24 +25,24 @@ ul.task-list li input[type="checkbox"] {
 </style>
 
 
-<script src="site_libs/quarto-nav/quarto-nav.js"></script>
-<script src="site_libs/quarto-nav/headroom.min.js"></script>
-<script src="site_libs/clipboard/clipboard.min.js"></script>
-<script src="site_libs/quarto-search/autocomplete.umd.js"></script>
-<script src="site_libs/quarto-search/fuse.min.js"></script>
-<script src="site_libs/quarto-search/quarto-search.js"></script>
-<meta name="quarto:offset" content="./">
-<script src="site_libs/quarto-html/quarto.js" type="module"></script>
-<script src="site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
-<script src="site_libs/quarto-html/axe/axe-check.js" type="module"></script>
-<script src="site_libs/quarto-html/popper.min.js"></script>
-<script src="site_libs/quarto-html/tippy.umd.min.js"></script>
-<script src="site_libs/quarto-html/anchor.min.js"></script>
-<link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-587c61ba64f3a5504c4d52d930310e48.css" rel="stylesheet" id="quarto-text-highlighting-styles">
-<script src="site_libs/bootstrap/bootstrap.min.js"></script>
-<link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap-26276a217d4c691d71d8a47b46ac4c7d.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<script src="../../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../../">
+<script src="../../site_libs/quarto-html/quarto.js" type="module"></script>
+<script src="../../site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
+<script src="../../site_libs/quarto-html/axe/axe-check.js" type="module"></script>
+<script src="../../site_libs/quarto-html/popper.min.js"></script>
+<script src="../../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../../site_libs/quarto-html/quarto-syntax-highlighting-587c61ba64f3a5504c4d52d930310e48.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../../site_libs/bootstrap/bootstrap-26276a217d4c691d71d8a47b46ac4c7d.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -70,7 +72,7 @@ ul.task-list li input[type="checkbox"] {
 }</script>
 
 
-<link rel="stylesheet" href="styles.css">
+<link rel="stylesheet" href="../../styles.css">
 </head>
 
 <body class="nav-fixed quarto-light">
@@ -80,8 +82,8 @@ ul.task-list li input[type="checkbox"] {
     <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container mx-auto">
-    <a class="navbar-brand" href="./index.html">
-    <span class="navbar-title">Francesca Capuano — R Tutorials</span>
+    <a class="navbar-brand" href="../../index.html">
+    <span class="navbar-title">Francesca Capuano</span>
     </a>
   </div>
             <div id="quarto-search" class="" title="Search"></div>
@@ -91,17 +93,35 @@ ul.task-list li input[type="checkbox"] {
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll me-auto">
   <li class="nav-item">
-    <a class="nav-link" href="./index.html"> 
+    <a class="nav-link" href="../../index.html"> 
 <span class="menu-text">Home</span></a>
   </li>  
-  <li class="nav-item">
-    <a class="nav-link" href="./tutorials/acceptability-ratings.html"> 
-<span class="menu-text">Acceptability Ratings</span></a>
+  <li class="nav-item dropdown ">
+    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-workshops" role="link" data-bs-toggle="dropdown" aria-expanded="false">
+ <span class="menu-text">Workshops</span>
+    </a>
+    <ul class="dropdown-menu" aria-labelledby="nav-menu-workshops">    
+        <li>
+    <a class="dropdown-item" href="../../workshops/llms-vs-human-language-processing/index.html">
+ <span class="dropdown-text">LLMs vs.&nbsp;Human Language Processing</span></a>
   </li>  
-  <li class="nav-item">
-    <a class="nav-link" href="./tutorials/power-analysis.html"> 
-<span class="menu-text">Power Analysis</span></a>
+    </ul>
+  </li>
+  <li class="nav-item dropdown ">
+    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-stats-tutorials" role="link" data-bs-toggle="dropdown" aria-expanded="false">
+ <span class="menu-text">Stats Tutorials</span>
+    </a>
+    <ul class="dropdown-menu" aria-labelledby="nav-menu-stats-tutorials">    
+        <li>
+    <a class="dropdown-item" href="../../tutorials/acceptability-ratings.html">
+ <span class="dropdown-text">Acceptability Ratings</span></a>
   </li>  
+        <li>
+    <a class="dropdown-item" href="../../tutorials/power-analysis.html">
+ <span class="dropdown-text">Power Analysis</span></a>
+  </li>  
+    </ul>
+  </li>
 </ul>
           </div> <!-- /navcollapse -->
             <div class="quarto-navbar-tools">
@@ -113,21 +133,48 @@ ul.task-list li input[type="checkbox"] {
 <div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
-    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar zindex-bottom">
-        
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#workshop-description" id="toc-workshop-description" class="nav-link active" data-scroll-target="#workshop-description">Workshop Description</a>
+  <ul class="collapse">
+  <li><a href="#surprisal" id="toc-surprisal" class="nav-link" data-scroll-target="#surprisal">Surprisal</a></li>
+  <li><a href="#prompting" id="toc-prompting" class="nav-link" data-scroll-target="#prompting">Prompting</a></li>
+  <li><a href="#internal-representations" id="toc-internal-representations" class="nav-link" data-scroll-target="#internal-representations">Internal representations</a></li>
+  </ul></li>
+  <li><a href="#practical-information" id="toc-practical-information" class="nav-link" data-scroll-target="#practical-information">Practical Information</a></li>
+  <li><a href="#schedule" id="toc-schedule" class="nav-link" data-scroll-target="#schedule">Schedule</a></li>
+  <li><a href="#workshop-materials" id="toc-workshop-materials" class="nav-link" data-scroll-target="#workshop-materials">Workshop Materials</a>
+  <ul class="collapse">
+  <li><a href="#slides" id="toc-slides" class="nav-link" data-scroll-target="#slides">Slides</a></li>
+  <li><a href="#colab-tutorials" id="toc-colab-tutorials" class="nav-link" data-scroll-target="#colab-tutorials">Colab Tutorials</a></li>
+  <li><a href="#instructions-for-participants" id="toc-instructions-for-participants" class="nav-link" data-scroll-target="#instructions-for-participants">Instructions for Participants</a></li>
+  </ul></li>
+  </ul>
+</nav>
     </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">About</h1>
+<h1 class="title">LLMs vs.&nbsp;Human Language Processing</h1>
+<p class="subtitle lead">Pre-conference workshop – TEAP 2026 (University of Tübingen)</p>
 </div>
 
 
 
 <div class="quarto-title-meta">
 
+    <div>
+    <div class="quarto-title-meta-heading">Authors</div>
+    <div class="quarto-title-meta-contents">
+             <p>Dr.&nbsp;Fritz Günther </p>
+             <p>Dr.&nbsp;Francesca Capuano </p>
+          </div>
+  </div>
     
   
     
@@ -138,9 +185,150 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<p>About this site</p>
+<div class="callout callout-style-default callout-note callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">Note</span>Before the workshop
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>The hands-on exercises will run in <strong>Google Colab</strong>, so no local installation is required.</p>
+<p>Participants should have a <strong>Google account</strong> so they can run the notebooks and save their own copy.</p>
+</div>
+</div>
+<section id="workshop-description" class="level2">
+<h2 class="anchored" data-anchor-id="workshop-description">Workshop Description</h2>
+<p>This workshop explores whether Large Language Models (LLMs) can serve as useful tools for research in psycholinguistics.</p>
+<p>We begin with a short introduction to LLMs, covering their architecture and the basic principles behind how they learn and generate language. Building on this foundation, we examine how LLMs are currently used to probe questions about human language processing.</p>
+<p>The workshop focuses on three central approaches.</p>
+<section id="surprisal" class="level3">
+<h3 class="anchored" data-anchor-id="surprisal">Surprisal</h3>
+<p>Surprisal quantifies how unexpected a word is in context. It has been linked to cognitive effort in human comprehension and can help simulate how humans process surprising or ambiguous language.</p>
+</section>
+<section id="prompting" class="level3">
+<h3 class="anchored" data-anchor-id="prompting">Prompting</h3>
+<p>Prompting allows researchers to design targeted linguistic inputs and probe model behaviour under controlled conditions that parallel psycholinguistic experiments.</p>
+</section>
+<section id="internal-representations" class="level3">
+<h3 class="anchored" data-anchor-id="internal-representations">Internal representations</h3>
+<p>We examine embeddings and other internal representations to explore how models encode syntactic and semantic relationships, potentially paralleling representational levels in the human language system.</p>
+<p>Participants will have hands-on opportunities to experiment with these techniques, analyse model outputs, and discuss their implications.</p>
+<hr>
+</section>
+</section>
+<section id="practical-information" class="level2">
+<h2 class="anchored" data-anchor-id="practical-information">Practical Information</h2>
+<table class="caption-top table">
+<tbody>
+<tr class="odd">
+<td><strong>Language</strong></td>
+<td>English</td>
+</tr>
+<tr class="even">
+<td><strong>Duration</strong></td>
+<td>Full day (10:00–16:30)</td>
+</tr>
+<tr class="odd">
+<td><strong>Requirements</strong></td>
+<td>Laptop required</td>
+</tr>
+<tr class="even">
+<td><strong>Programming</strong></td>
+<td>Basic knowledge helpful but not required</td>
+</tr>
+</tbody>
+</table>
+<hr>
+</section>
+<section id="schedule" class="level2">
+<h2 class="anchored" data-anchor-id="schedule">Schedule</h2>
+<table class="caption-top table">
+<thead>
+<tr class="header">
+<th>Time</th>
+<th>Session</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>10:00–10:45</td>
+<td>Introduction to LLMs</td>
+</tr>
+<tr class="even">
+<td>10:45–11:00</td>
+<td>Break</td>
+</tr>
+<tr class="odd">
+<td>11:00–11:45</td>
+<td>What Can LLMs Tell Us About Human Language Processing?</td>
+</tr>
+<tr class="even">
+<td>11:45–12:00</td>
+<td>Break</td>
+</tr>
+<tr class="odd">
+<td>12:00–12:45</td>
+<td>Prompting</td>
+</tr>
+<tr class="even">
+<td>12:45–13:45</td>
+<td>Lunch Break</td>
+</tr>
+<tr class="odd">
+<td>13:45–14:45</td>
+<td>Log-Probabilities and Surprisal</td>
+</tr>
+<tr class="even">
+<td>14:45–15:00</td>
+<td>Break</td>
+</tr>
+<tr class="odd">
+<td>15:00–15:45</td>
+<td>Internal Representations</td>
+</tr>
+<tr class="even">
+<td>15:45–16:30</td>
+<td>Remaining Issues and Discussion</td>
+</tr>
+</tbody>
+</table>
+<hr>
+</section>
+<section id="workshop-materials" class="level1">
+<h1>Workshop Materials</h1>
+<section id="slides" class="level2">
+<h2 class="anchored" data-anchor-id="slides">Slides</h2>
+<ul>
+<li><a href="slides/">Introduction to LLMs</a></li>
+<li><a href="slides/llms-in-the-study-of-human-language-processing.pdf">LLMs in the study of human language processing</a></li>
+</ul>
+<hr>
+</section>
+<section id="colab-tutorials" class="level2">
+<h2 class="anchored" data-anchor-id="colab-tutorials">Colab Tutorials</h2>
+<p>Participants should open the notebook and <strong>save a personal copy</strong> before starting the exercises.</p>
+<ul>
+<li><a href="https://colab.research.google.com/drive/1HB2Z6IOOY2kspd4RdbXJJnxAJ4uLXIdr?usp=sharing">Prompting tutorial</a></li>
+<li><a href="https://colab.research.google.com/drive/1tnJgj0MQh70VX1j4ulJCB7iHjLxorHnS?usp=sharing">Surprisal tutorial</a></li>
+<li><a href="https://colab.research.google.com/drive/1REtnqwSyt4jIvDJVTcmUcxJYLeeKNIvB?usp=sharing">Embeddings tutorial</a></li>
+</ul>
+<hr>
+</section>
+<section id="instructions-for-participants" class="level2">
+<h2 class="anchored" data-anchor-id="instructions-for-participants">Instructions for Participants</h2>
+<ol type="1">
+<li>Open the notebook using the link above.</li>
+<li>In Colab, click <strong>File → Save a copy in Drive</strong>.</li>
+<li>Work on your own copy during the exercises.</li>
+</ol>
+<p>Saving a copy ensures that you can run the code and modify the notebook.</p>
 
 
+</section>
+</section>
 
 </main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">

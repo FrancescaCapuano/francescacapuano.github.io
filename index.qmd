@@ -1,13 +1,9 @@
 ---
-title: "R Tutorials"
+title: "Home"
+page-layout: full
 ---
 
-# Welcome to the R Tutorials
+This website collects **workshop materials**, **statistics tutorials**, and other practical resources for students and researchers.
 
-This page contains tutorials on acceptability ratings, mixed models, and other related analyses in R.  
-
-Use the navigation bar above to explore the different topics and resources.  
-
-All tutorials are meant to be practical examples, and you can also find links to datasets, example scripts, and helpful references.
-
-
+::: {.columns}
+::: {.column width="50%"}

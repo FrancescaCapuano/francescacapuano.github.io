@@ -1,0 +1,95 @@
+---
+title: "LLMs vs. Human Language Processing"
+subtitle: "Pre-conference workshop – TEAP 2026 (University of Tübingen)"
+author:
+  - name: Dr. Fritz Günther
+  - name: Dr. Francesca Capuano
+toc: true
+---
+
+::: {.callout-note}
+### Before the workshop
+
+The hands-on exercises will run in **Google Colab**, so no local installation is required.
+
+Participants should have a **Google account** so they can run the notebooks and save their own copy.
+:::
+
+## Workshop Description
+
+This workshop explores whether Large Language Models (LLMs) can serve as useful tools for research in psycholinguistics.
+
+We begin with a short introduction to LLMs, covering their architecture and the basic principles behind how they learn and generate language. Building on this foundation, we examine how LLMs are currently used to probe questions about human language processing.
+
+The workshop focuses on three central approaches.
+
+### Surprisal
+
+Surprisal quantifies how unexpected a word is in context. It has been linked to cognitive effort in human comprehension and can help simulate how humans process surprising or ambiguous language.
+
+### Prompting
+
+Prompting allows researchers to design targeted linguistic inputs and probe model behaviour under controlled conditions that parallel psycholinguistic experiments.
+
+### Internal representations
+
+We examine embeddings and other internal representations to explore how models encode syntactic and semantic relationships, potentially paralleling representational levels in the human language system.
+
+Participants will have hands-on opportunities to experiment with these techniques, analyse model outputs, and discuss their implications.
+
+---
+
+## Practical Information
+
+| | |
+|---|---|
+| **Language** | English |
+| **Duration** | Full day (10:00–16:30) |
+| **Requirements** | Laptop required |
+| **Programming** | Basic knowledge helpful but not required |
+
+---
+
+## Schedule
+
+| Time | Session |
+|-----|------|
+| 10:00–10:45 | Introduction to LLMs |
+| 10:45–11:00 | Break |
+| 11:00–11:45 | What Can LLMs Tell Us About Human Language Processing? |
+| 11:45–12:00 | Break |
+| 12:00–12:45 | Prompting |
+| 12:45–13:45 | Lunch Break |
+| 13:45–14:45 | Log-Probabilities and Surprisal |
+| 14:45–15:00 | Break |
+| 15:00–15:45 | Internal Representations |
+| 15:45–16:30 | Remaining Issues and Discussion |
+
+---
+
+# Workshop Materials
+
+## Slides
+
+- [Introduction to LLMs](slides/)
+- [LLMs in the study of human language processing](slides/llms-in-the-study-of-human-language-processing.pdf)
+
+---
+
+## Colab Tutorials
+
+Participants should open the notebook and **save a personal copy** before starting the exercises.
+  
+- [Prompting tutorial](https://colab.research.google.com/drive/1HB2Z6IOOY2kspd4RdbXJJnxAJ4uLXIdr?usp=sharing)
+- [Surprisal tutorial](https://colab.research.google.com/drive/1tnJgj0MQh70VX1j4ulJCB7iHjLxorHnS?usp=sharing)
+- [Embeddings tutorial](https://colab.research.google.com/drive/1REtnqwSyt4jIvDJVTcmUcxJYLeeKNIvB?usp=sharing)
+
+---
+
+## Instructions for Participants
+
+1. Open the notebook using the link above.
+2. In Colab, click **File → Save a copy in Drive**.
+3. Work on your own copy during the exercises.
+
+Saving a copy ensures that you can run the code and modify the notebook.

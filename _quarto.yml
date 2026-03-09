@@ -3,15 +3,21 @@ project:
   output-dir: docs
 
 website:
-  title: "Francesca Capuano — R Tutorials"
+  title: "Francesca Capuano"
   navbar:
     left:
       - text: Home
         href: index.qmd
-      - text: Acceptability Ratings
-        href: tutorials/acceptability-ratings.qmd
-      - text: Power Analysis
-        href: tutorials/power-analysis.qmd
+      - text: Workshops
+        menu:
+          - text: LLMs vs. Human Language Processing
+            href: workshops/llms-vs-human-language-processing/index.qmd
+      - text: Stats Tutorials
+        menu:
+          - text: Acceptability Ratings
+            href: tutorials/acceptability-ratings.qmd
+          - text: Power Analysis
+            href: tutorials/power-analysis.qmd
 
 format:
   html:
@@ -19,4 +25,3 @@ format:
     css: styles.css
     toc: true
     code-fold: true
-
