@@ -71,7 +71,8 @@ Participants will have hands-on opportunities to experiment with these technique
 
 ## Slides
 
-- [Introduction to LLMs](slides/)
+- [Introduction to LLMs](slides/01_workshopLLMs_Intro.pdf)
+- [Embeddings](slides/02_workshopLLMs_embeddings.pdf)
 - [LLMs in the study of human language processing](slides/llms-in-the-study-of-human-language-processing.pdf)
 
 ---
